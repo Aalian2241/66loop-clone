@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="import" href="Components/Landing/LandingSection.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">	<link rel="stylesheet" href="Components/Landing Section/LandingPage.css">
+    <link rel="stylesheet" href="Components/Services/Services.css">
+    <link rel="stylesheet" href="Components/Landing/LandingSection.css">
+</head>
+<body>
+    <div class="container-fluid">
+       
+                
+        
+        
+        <iframe src="Components/Landing/LandingSection.html" frameborder="0" scrolling="no" style="width: 100%; height:600px;"></iframe>
+        <div class="divider"></div>
+        <div class="partners-container">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+            <img src="Assets/logo.jpeg" class="img-fluid">
+        </div>
+          
+        <div class="container-section-services">
+            <div class="container-s-s-a">
+                <div class="service-1">
+                    <div class="service-info-container">
+                        <div class="image-container">
+                            <span >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <path d="M34.9033 0.928955H1.9541C1.38781 0.928955 0.928711 1.38806 0.928711 1.95435V8.22393V34.9036C0.928711 35.4699 1.38781 35.929 1.9541 35.929H34.9033C35.4696 35.929 35.9287 35.4699 35.9287 34.9036V1.95435C35.9287 1.38806 35.4696 0.928955 34.9033 0.928955ZM33.8779 2.97974V7.19853H29.6591V2.97974H33.8779ZM2.97949 2.97974H27.6084V7.19853H2.97949V2.97974ZM33.8779 33.8782H2.97949V9.24932H33.8779V33.8782Z" fill="#1FBA9E"></path>
+                                    <path d="M8.97656 20.5162L13.3082 16.2599C13.712 15.863 13.7178 15.2138 13.3209 14.8099C12.924 14.406 12.2748 14.4002 11.8708 14.7972L6.8013 19.7784C6.6062 19.9701 6.4958 20.2318 6.49464 20.5053C6.49348 20.7788 6.60155 21.0415 6.79501 21.2348L11.8644 26.3043C12.0646 26.5045 12.3271 26.6047 12.5894 26.6047C12.8518 26.6047 13.1143 26.5045 13.3144 26.3043C13.7149 25.9039 13.7149 25.2546 13.3144 24.8542L8.97656 20.5162Z" fill="#1FBA9E"></path>
+                                    <path d="M23.543 14.8035C23.1426 15.2039 23.1426 15.8532 23.543 16.2536L27.881 20.5916L23.5494 24.8479C23.1455 25.2448 23.1398 25.894 23.5367 26.2979C23.7374 26.5023 24.0026 26.6047 24.2681 26.6047C24.5275 26.6047 24.7871 26.5068 24.9868 26.3107L30.0562 21.3294C30.2513 21.1377 30.3617 20.876 30.3628 20.6025C30.364 20.329 30.2559 20.0664 30.0624 19.873L24.9931 14.8035C24.5928 14.4031 23.9435 14.4031 23.543 14.8035Z" fill="#1FBA9E"></path>
+                                    <path d="M20.5537 14.5622C20.0199 14.3729 19.4338 14.6521 19.2445 15.1859L15.6803 25.2366C15.4911 25.7704 15.7703 26.3565 16.3041 26.5457C16.4174 26.5859 16.5331 26.605 16.6468 26.605C17.0688 26.605 17.4641 26.3424 17.6133 25.922L21.1775 15.8712C21.3667 15.3375 21.0874 14.7514 20.5537 14.5622Z" fill="#1FBA9E"></path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="service-title"> <h2 style="padding-bottom:10px;color: aquamarine;">Web Development</h1> </div>
+                    </div>
+                    <div class="service-desc-container">
+                        <a style="color:white;font-size: large;">We will develop your well-designed website, hire us for developing a nifty and natty site of yours in minimal time and that will be within your budget for sure.</a>
+                    </div>
+                    <a href="#" class="clickable-text">Learn More &#9654;</a>
+
+                </div>
+                    <div class="d-flex" style="height: 100px;color: white;">
+                      <div class="vr"></div>
+                    </div>
+
+                <div class="ruler"></div>
+                
+                <div class="service-2">
+                    <div class="service-info-container">
+                        <div class="image-container">
+                            <span >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <path d="M34.9033 0.928955H1.9541C1.38781 0.928955 0.928711 1.38806 0.928711 1.95435V8.22393V34.9036C0.928711 35.4699 1.38781 35.929 1.9541 35.929H34.9033C35.4696 35.929 35.9287 35.4699 35.9287 34.9036V1.95435C35.9287 1.38806 35.4696 0.928955 34.9033 0.928955ZM33.8779 2.97974V7.19853H29.6591V2.97974H33.8779ZM2.97949 2.97974H27.6084V7.19853H2.97949V2.97974ZM33.8779 33.8782H2.97949V9.24932H33.8779V33.8782Z" fill="#1FBA9E"></path>
+                                    <path d="M8.97656 20.5162L13.3082 16.2599C13.712 15.863 13.7178 15.2138 13.3209 14.8099C12.924 14.406 12.2748 14.4002 11.8708 14.7972L6.8013 19.7784C6.6062 19.9701 6.4958 20.2318 6.49464 20.5053C6.49348 20.7788 6.60155 21.0415 6.79501 21.2348L11.8644 26.3043C12.0646 26.5045 12.3271 26.6047 12.5894 26.6047C12.8518 26.6047 13.1143 26.5045 13.3144 26.3043C13.7149 25.9039 13.7149 25.2546 13.3144 24.8542L8.97656 20.5162Z" fill="#1FBA9E"></path>
+                                    <path d="M23.543 14.8035C23.1426 15.2039 23.1426 15.8532 23.543 16.2536L27.881 20.5916L23.5494 24.8479C23.1455 25.2448 23.1398 25.894 23.5367 26.2979C23.7374 26.5023 24.0026 26.6047 24.2681 26.6047C24.5275 26.6047 24.7871 26.5068 24.9868 26.3107L30.0562 21.3294C30.2513 21.1377 30.3617 20.876 30.3628 20.6025C30.364 20.329 30.2559 20.0664 30.0624 19.873L24.9931 14.8035C24.5928 14.4031 23.9435 14.4031 23.543 14.8035Z" fill="#1FBA9E"></path>
+                                    <path d="M20.5537 14.5622C20.0199 14.3729 19.4338 14.6521 19.2445 15.1859L15.6803 25.2366C15.4911 25.7704 15.7703 26.3565 16.3041 26.5457C16.4174 26.5859 16.5331 26.605 16.6468 26.605C17.0688 26.605 17.4641 26.3424 17.6133 25.922L21.1775 15.8712C21.3667 15.3375 21.0874 14.7514 20.5537 14.5622Z" fill="#1FBA9E"></path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="service-title"> <h2 style="padding-bottom:10px;color: aquamarine;">Graphic Designing</h1> </div>
+                        </div>
+
+                        <div class="service-desc-container">
+                            <a style="color:white;font-size: large;">Our humble team of graphic designers is hardworking, experienced create exquisite graphics for our clients. Our profile speaks our creativity and credibility.</a>
+                        </div>
+                        <a href="#" class="clickable-text">Learn More &#9654;</a>
+
+                    </div>
+                    <div class="ruler"></div>
+
+                <div class="service-3">
+                    <div class="service-info-container">
+                        <div class="image-container">
+                            <span >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <path d="M34.9033 0.928955H1.9541C1.38781 0.928955 0.928711 1.38806 0.928711 1.95435V8.22393V34.9036C0.928711 35.4699 1.38781 35.929 1.9541 35.929H34.9033C35.4696 35.929 35.9287 35.4699 35.9287 34.9036V1.95435C35.9287 1.38806 35.4696 0.928955 34.9033 0.928955ZM33.8779 2.97974V7.19853H29.6591V2.97974H33.8779ZM2.97949 2.97974H27.6084V7.19853H2.97949V2.97974ZM33.8779 33.8782H2.97949V9.24932H33.8779V33.8782Z" fill="#1FBA9E"></path>
+                                    <path d="M8.97656 20.5162L13.3082 16.2599C13.712 15.863 13.7178 15.2138 13.3209 14.8099C12.924 14.406 12.2748 14.4002 11.8708 14.7972L6.8013 19.7784C6.6062 19.9701 6.4958 20.2318 6.49464 20.5053C6.49348 20.7788 6.60155 21.0415 6.79501 21.2348L11.8644 26.3043C12.0646 26.5045 12.3271 26.6047 12.5894 26.6047C12.8518 26.6047 13.1143 26.5045 13.3144 26.3043C13.7149 25.9039 13.7149 25.2546 13.3144 24.8542L8.97656 20.5162Z" fill="#1FBA9E"></path>
+                                    <path d="M23.543 14.8035C23.1426 15.2039 23.1426 15.8532 23.543 16.2536L27.881 20.5916L23.5494 24.8479C23.1455 25.2448 23.1398 25.894 23.5367 26.2979C23.7374 26.5023 24.0026 26.6047 24.2681 26.6047C24.5275 26.6047 24.7871 26.5068 24.9868 26.3107L30.0562 21.3294C30.2513 21.1377 30.3617 20.876 30.3628 20.6025C30.364 20.329 30.2559 20.0664 30.0624 19.873L24.9931 14.8035C24.5928 14.4031 23.9435 14.4031 23.543 14.8035Z" fill="#1FBA9E"></path>
+                                    <path d="M20.5537 14.5622C20.0199 14.3729 19.4338 14.6521 19.2445 15.1859L15.6803 25.2366C15.4911 25.7704 15.7703 26.3565 16.3041 26.5457C16.4174 26.5859 16.5331 26.605 16.6468 26.605C17.0688 26.605 17.4641 26.3424 17.6133 25.922L21.1775 15.8712C21.3667 15.3375 21.0874 14.7514 20.5537 14.5622Z" fill="#1FBA9E"></path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="service-title"> <h2 style="padding-bottom:10px;color: aquamarine;">Digital Marketing</h1> </div>
+                    
+                    </div>
+
+                    <div class="service-desc-container">
+                        <a style="color:white;font-size: large;">We would love to aid you by brining your website in a limelight with the help of search engines that will locate your pages and will bring them before your audience.</a>
+                    </div>
+                    <a href="#" class="clickable-text">Learn More &#9654;</a>
+
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+	
+    <main>
+		<!-- Page content goes here -->
+	</main>
+	
+	<footer>
+		<!-- Footer content goes here -->
+	</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script></body>
+</html>

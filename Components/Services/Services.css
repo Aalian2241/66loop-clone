@@ -44,9 +44,11 @@
     padding-left: 80px;
   }
 
-.partners-container{
-    display: flex;
-    flex-direction: column;
-    padding-top: 2px;
+  .partners-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
     background-color: white;
-}
+    padding: 10px;
+  }

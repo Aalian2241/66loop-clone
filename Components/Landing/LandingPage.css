@@ -112,13 +112,15 @@ nav ul li a {
 nav ul li:last-child {
 	margin-right: 0;
 }
+
 .dropdown-menu {
-    font-size: xx-large;
+    font-size: x-large;
     display: none; /* Hide the dropdown menu by default */
+    background-color: white;
   }
 
 .dropdown-item{
-    font-size:x-large;
+    font-size:large;
 }  
 .dropdown:hover .dropdown-menu {
      
