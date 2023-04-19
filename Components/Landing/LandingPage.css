@@ -51,6 +51,7 @@ header {
 .container-section-a-1-2{
     display: flex;
     padding-left:80px;
+    padding-top: 80px;
     justify-content: center;
 }
 .container-section-a-1-2-1{
@@ -59,8 +60,8 @@ header {
     justify-content: center;
 }
 .container-section-a-1-2-1-message{
-    margin-right: 250px;
-    padding-left:40px;
+    margin-right: 210px;
+    padding-left:60px;
     padding-bottom:20px;
     color:white;
     text-align:center;
