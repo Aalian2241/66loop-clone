@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 14px;
+    background-color: rgb(242, 234, 234);
   }
   
   .grid-item {
@@ -32,6 +33,7 @@
   }
   
   .grid2 {
+    padding-right: 30px;
     display: grid;
     place-items: center;
   }
@@ -39,4 +41,4 @@
   .grid2 img {
     max-width: 120%;
     height: auto;
-  }
+  } 

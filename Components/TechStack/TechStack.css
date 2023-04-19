@@ -1,0 +1,41 @@
+.divider {
+    height: 40px;
+    width: 100%;
+    background-color: white;}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.description{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 4 columns */
+    grid-template-rows: 1fr; /* 1 row */
+    gap: 14px; /* gap between items */
+    justify-content: center; /* center items horizontally */
+    align-items: center; /* center items vertically */
+    }
+
+.grid-item {
+    background-color: rgb(255, 255, 255); /* item background color */
+    padding: 20px; /* item padding */
+    border-radius: 5px; /* item border radius */
+    text-align: center; /* center text inside item */
+}
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,74 @@
+
+.container {
+    background-color: rgb(242, 234, 234);
+}
+.Section-Title h1{
+    width:30%;
+    font-size:52px;
+    font-weight:bolder;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* First grid occupies 1/3rd and second grid occupies 2/3rd of the space */
+    grid-gap: 20px;
+  }
+  
+.grid1 {
+    justify-content:center;
+    align-items:center;
+}  
+.grid1-content{
+    padding:40px;
+}
+.grid1-content a{
+    width:70%;
+    
+}
+.grid2 {
+  }
+.review-container{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.customer-reviews{
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items:center;
+}
+
+.customer-reviews img{
+    width:100%;
+    height:100px;
+    object-fit: contain;
+}
+.customer-reviews a {
+    color:rgb(160, 160, 160);
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+.customer-reviews a1 {
+    color:rgb(38, 36, 36);
+    width: 70%;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+}
+.customer-reviews a2 {
+    color:rgb(53, 177, 179);
+    width: 70%;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.carousel-control-prev-icon {
+    background-color: rgb(193, 169, 169);
+  }
+
+  .carousel-control-next-icon {
+    background-color: rgb(192, 178, 178);
+  }
