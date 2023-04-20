@@ -1,0 +1,29 @@
+.container-fluid{
+    background-color: black;
+    padding:0;
+    margin:0;
+}
+.container{
+    display:flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+}
+.Contact{
+    flex:2;
+}
+.Locations{
+    flex:2;
+}
+
+.img-container{
+    flex:4
+}
+
+.Contact h1{
+    color:white;
+}
+
+.other a{
+    color:white;
+}

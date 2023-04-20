@@ -14,13 +14,20 @@
     <div class="container-fluid">
         <iframe id="my-iframe" src="Components/Landing/LandingSection.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
         <div class="divider"></div>
-        <iframe src="Components/Services/Services.html" frameborder="0" scrolling="no" style="width: 100%;height:400px"></iframe>
+        <iframe src="Components/Services/Services.html" frameborder="0" scrolling="no" style="width: 100%;height:800px"></iframe>
         <iframe src="Components/Record/Record.php" frameborder="0" scrolling="no" style="width: 100%;height:600px"></iframe>
         <iframe src="Components/TechStack/TechStack.php" frameborder="0" scrolling="no" style="width: 100%;height:300px"></iframe>
         <iframe src="Components/OfferedValue/OfferedValue.php" frameborder="0" scrolling="no" style="width: 100%;height:700px"></iframe>
         <iframe src="Components/ClientsResponse/ClientsResponse.html" frameborder="0" scrolling="no" style="width: 100%;height:700px"></iframe>
+        <iframe src="Components/Portfolio/Portfolio.html" frameborder="0" scrolling="no" style="width: 100%;height:900px"></iframe>
+        <iframe src="Components/Projects/Projects.php" frameborder="0" scrolling="no" style="width: 100%;height:500px"></iframe>
     </div>
-	
+    <iframe src="Components/News/News.php" frameborder="0" scrolling="no" style="width: 100%;height:700px"></iframe>
+    <iframe src="Components/HireUs/HireUs.html" frameborder="0" scrolling="no" style="width: 100%;height:700px"></iframe>
+    <iframe src="Components/NewProjects/NewProjects.html" frameborder="0" scrolling="no" style="width: 100%;height:200px"></iframe>
+    <iframe src="Components/Contact/Contact.html" frameborder="0" scrolling="no" style="width: 100%;height:400px"></iframe>
+    <iframe src="Components/BottomSection/BottomSection.html" frameborder="0" scrolling="no" style="width: 100%;height:200px"></iframe>
+
     
 
 

@@ -1,0 +1,42 @@
+.container-fluid{
+    background-color: white;
+}
+.container{
+    display:flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+}
+.Contact{
+    flex:2;
+}
+.Locations{
+    flex:2;
+}
+
+.img-container{
+    flex:4
+}
+
+.Contact h1{
+    font-size: 35px;
+    color:black;
+}
+
+.other a{
+    text-decoration: none;
+    color:black;
+}
+.contact-desc{
+    width:60%;
+}
+a {
+    color: rgb(206, 13, 13);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: aqua;
+    transform: translateY(2px);
+  }
+  

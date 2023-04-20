@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-container {
+    display: grid;
+    
+    box-shadow: aquamarine;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+  }
+.title{
+    font-weight: bolder;
+}
+  .grid-item {
+    background-color: rgba(243, 253, 254, 0.933); /* item background color */
+    padding: 12px; /* item padding */
+    border-radius: 5px; /* item border radius */
+    text-align: start; /* center text inside item */
+  }
+  
+  .image-container {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px; /* add some space below image */
+  }
+  
+  .image-container img{
+    max-width: 80%;
+    height: auto;
+    object-fit: contain; /* keep image aspect ratio */
+  }
+  
+  .info-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    grid-gap: 5px; /* Gap between grid items */
+  }
+  
+  .info-container .item2 {
+    text-align: right; /* align even numbered items to the right */
+    font-weight: bold;
+  }
+  
+  .info-container item1 {
+    font-weight: bold;
+  }
+
+  .info-container .item4 {
+    text-align: right; /* align even numbered items to the right */
+    font-weight: bold;
+  }

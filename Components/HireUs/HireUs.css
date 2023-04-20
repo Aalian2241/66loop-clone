@@ -1,0 +1,50 @@
+:root {
+    --font-size: 17px;
+  }
+  
+
+.container {
+    display: flex;
+  }
+  
+  .container .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container .child-container {
+    display: flex;
+  }
+  
+  .container .child-left {
+    flex: 1;
+  }
+  
+  .container .child-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container .child-right img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .right {
+    flex: 1;
+    padding:20px;
+  }
+  
+#Name{
+    height:50px;
+}
+#Email{
+    height:50px;
+}
+.option-label {
+    font-size: var(--font-size);
+  }
