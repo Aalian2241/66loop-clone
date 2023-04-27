@@ -1,7 +1,19 @@
 
 .container {
     background-color: rgb(242, 234, 234);
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 1s ease-in-out forwards; /* Add fade-in animation */
+
 }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Set starting opacity */
+    }
+    to {
+      opacity: 1; /* Set ending opacity */
+    }
+  }
 .Section-Title h1{
     width:30%;
     font-size:52px;
@@ -24,8 +36,7 @@
     width:70%;
     
 }
-.grid2 {
-  }
+
 .review-container{
     display: flex;
     justify-content: center;
@@ -72,3 +83,24 @@
   .carousel-control-next-icon {
     background-color: rgb(192, 178, 178);
   }
+
+  @media (max-width: 768px){
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr); /* Three columns with equal width */
+    }
+    .Section-Title{
+      width:60%;
+    }
+
+  }
+  
+  @media (max-width: 450px){
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr); /* Three columns with equal width */
+    }
+    .Section-Title{
+      font-size: 45px;
+      width: 85%;
+    }
+  }
+  

@@ -2,29 +2,47 @@
     padding-top:40px;
     height:130px;
         background-color: rgb(186, 182, 182);
+        opacity: 0; /* Set initial opacity to 0 */
+        animation: fadeIn 1s ease-in-out forwards; /* Add fade-in animation */
+    
+    }
+    
+      @keyframes fadeIn {
+        from {
+          opacity: 0; /* Set starting opacity */
+        }
+        to {
+          opacity: 1; /* Set ending opacity */
+        }
+      }
+.section-title{
+  display: flex;
+  width: 33%;
+  align-items: center;
+  
+  
 }
-
-.Section-Title h1{
+.section-Title h1{
     width:70%;
     font-size:52px;
     font-weight:bolder;
 }
 .desc{
-    width:30%;
+    width:38%;
     font-size: 18px;
     text-align:start;
-}
+    padding:15px;
+  }
 .button{
     display:flex;
     justify-content: center;
     align-items: center;
     padding-top:35px;
+    padding-right:10px;
 }
 .box {
-    width: 100%;
-    max-width: 1470px;
-    margin: 0 auto;
-    position: absolute;
+    position: inherit;
+    padding-bottom: 21px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -32,17 +50,41 @@
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
   }
   
+.box-contents{
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-left:10px
+}
+
   @media only screen and (min-width: 768px) {
     /* For medium devices, leave a 30px margin on both sides */
-    .box {
-      padding: 0 30px;
+    .section-title{
+      align-items: none;
+
+    }
+    .section-title h1{
+      font-weight: bolder;
+    }
+    .desc{
+      font-size: 14px;
     }
   }
   
   @media only screen and (min-width: 992px) {
     /* For large devices, leave a 50px margin on both sides */
-    .box {
-      padding: 0 50px;
+    .desc{
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For large devices, leave a 50px margin on both sides */
+    .desc{
+      font-size: 13px;
+    }
+    .section-title h1{
+      font-weight: bolder;
     }
   }
   

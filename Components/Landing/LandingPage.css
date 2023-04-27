@@ -16,10 +16,26 @@ header {
     background-color: #333;
     flex-direction: column;
     height: 200%;
-    overflow: auto;
-    
-}
+    }
 
+    
+    .landing-section,
+    .services,
+    .record,
+    .tech-stack,
+    .offered-value,
+    .clients-response,
+    .portfolio,
+    .projects,
+    .news,
+    .hire-us,
+    .new-projects,
+    .contact,
+    .bottom-section {
+      width: 100%;
+      height: 100%;
+    }
+    
 .container-top{
     
     padding: 2px;
@@ -32,7 +48,19 @@ header {
 
     display: flex;
     flex-direction: column;
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 1s ease-in-out forwards; /* Add fade-in animation */
+
 }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Set starting opacity */
+    }
+    to {
+      opacity: 1; /* Set ending opacity */
+    }
+  }
 .container-section-a-1{
     display: flex;
     flex-direction: row;
@@ -79,7 +107,19 @@ header {
     align-items: center;
     height: 100px;
   }
-  
+.container-fluid{
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 5s ease-in-out forwards; /* Add fade-in animation */
+
+} 
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Set starting opacity */
+    }
+    to {
+      opacity: 1; /* Set ending opacity */
+    }
+  }
   .logo-container img {
     height: 40px;
     padding-bottom: 5px;
@@ -139,4 +179,37 @@ btn .dropdown-toggle{
     background-color: white;}
 
 
+    .iframe-container {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      padding-top: 30px;
+    }
+    
+    .iframe-container iframe {
+      width: 100%;
+      border: none;
+    }
+.new-iframe{
+  height:calc(100vh - 95px) !important;
+  width: 100% !important;
+}
+@media only screen and (max-width: 767px) {
+  .new-iframe {
+    height: calc(100vh - 150px) !important;
+  }
+}
 
+/* For screens between 768px and 992px (e.g. tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .new-iframe {
+    height: calc(100vh - 120px) !important;
+  }
+}
+
+/* For screens larger than 992px (e.g. desktops) */
+@media only screen and (min-width: 992px) {
+  .new-iframe {
+    height: calc(100vh - 95px) !important;
+  }
+}

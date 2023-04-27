@@ -3,48 +3,145 @@
   }
   
 
-.container {
-    display: flex;
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* 1 col in mobile view*/
+    opacity: 0; /* Set initial opacity to 0 */
+    animation: fadeIn 1s ease-in-out forwards; /* Add fade-in animation */
+
+}
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Set starting opacity */
+    }
+    to {
+      opacity: 1; /* Set ending opacity */
+    }
   }
   
-  .container .left {
+  .left-container{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  
-  .container .child-container {
-    display: flex;
-  }
-  
-  .container .child-left {
-    flex: 1;
-  }
-  
-  .container .child-right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .container .child-right img {
-    width: 100%;
+  .image-container img {
+    max-width: 100%;
     height: auto;
+    
   }
+  .img-container{
+    display:flex;
+    justify-content: center;
+  } 
   
-  .container .right {
-    flex: 1;
-    padding:20px;
+
+  .right-container {
+    display: flex;
+    flex-direction: column;
   }
-  
+
+  .right-grid{
+  display:grid;
+  grid-template-rows: repeat(3,1fr);
+  gap:4px;
+  padding:10px;
+}  
+  .name-email-grid{
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
+    gap:10px;
+
+}
+  .message{
+    display:grid;
+    grid-area: inherit;
+  }
+  .options-section{
+    display:flex;
+    padding-top: 15px;
+    flex-direction: column;
+    line-height: 4vh;
+  }
 #Name{
     height:50px;
+    width:auto;
 }
 #Email{
     height:50px;
+    width:auto;
 }
 .option-label {
     font-size: var(--font-size);
+
   }
+
+.label{
+  font-size:42px;
+  font-weight: bolder;
+}
+.right-container a1{
+  font-size: 32px;
+}
+@media (max-width: 1240px) {
+  .img-container{
+    display:flex;
+    justify-content: center;
+  }
+  .img-container img {
+    width: 50%;
+  }
+
+  .grid-container{
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows: (2,1fr);
+  }
+  #Name{
+    height:50px;
+    width:100%;
+}
+  #Email{
+    height:50px;
+    width:100%;
+}
+
+  #Message{
+    width:96%;
+
+  }
+
+}
+
+@media (max-width: 590px) {
+  .img-container img {
+    width: 100%;
+  }
+  
+  .right-container a1{
+    font-size: 24px;
+    padding:10px;
+  }
+
+  .options a1{
+    font-size:24px;
+    padding:10px;
+
+  }
+  .grid-container{
+    grid-template-columns:repeat(1,1fr);
+    grid-template-rows: (2,1fr);
+  }
+  .name-email-grid{
+    grid-template-columns: repeat(1,1fr);
+  }
+  #Name{
+    height:50px;
+    width:100%;
+}
+#Email{
+    height:50px;
+    width:100%;
+}
+
+}
