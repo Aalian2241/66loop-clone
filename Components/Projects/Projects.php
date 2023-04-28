@@ -33,26 +33,29 @@
   </head>
 
 <div >
-  <div class="container">
-      <div class="divider"></div>
-        <div class="grid-container">
-          <?php foreach ($gridItems as $item): ?>
-            <div class="grid-item">
-
-                <div class="image-container">
-                    <img src="<?php echo $item['src'];?>">
+<div class="container">
+    <div class="divider"></div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <?php foreach ($gridItems as $item): ?>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="image-container">
+                        <img src="<?php echo $item['src'];?>" class="card-img-top" alt="<?php echo $item['title'];?>">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $item['title']; ?></h5>
+                        <a href="#" style="text-decoration:none;color:aqua;border-bottom: 2px aqua;">View More</a>
+                        <div class="info-container">
+                            <div class="item1">Left element 1</div>
+                            <div class="item2">Right element 1</div>
+                            <div class="item3">Left element 2</div>
+                            <div class="item4">Right element 2</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="Title"><?php echo $item['title']; ?></div>
-                <a1 href="#" style="text-decoration:none;color:aqua;border-bottom: 2px aqua;">View More</a1>   
-                <div class="info-container">
-                    <div class="item1">Left element 1</div>
-                    <div class="item2">Right element 1</div>
-                    <div class="item3">Left element 2</div>
-                    <div class="item4">Right element 2</div>
-                </div>
-           
             </div>
-          <?php endforeach; ?>
-        </div>
-      </div>
+        <?php endforeach; ?>
+    </div>
+</div>
+
 </div>
