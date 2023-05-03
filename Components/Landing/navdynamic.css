@@ -1,0 +1,9 @@
+.navdynamic-container{
+    position: absolute;
+    z-index:1;
+    display: block;
+}
+.navdynamic{
+    display: flex;
+    flex-direction:column;
+}

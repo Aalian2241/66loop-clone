@@ -40,12 +40,21 @@ header {
     
     padding: 2px;
 }
+.office-logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Scale image while preserving aspect ratio */
+  z-index: -1;
+}
+.image{
+  margin-bottom:10px;
+}
 .container-section-a{
     background-repeat: no-repeat;
-  background-size:cover;
-  background-image: linear-gradient( rgba(24, 49, 61, 0.659), rgba(20, 35, 50, 0.618)), url("../../Assets/office.jpg");background-size: cover;
-  background-position: bottom;
-
+    position: relative;
     display: flex;
     flex-direction: column;
     opacity: 0; /* Set initial opacity to 0 */
@@ -81,7 +90,6 @@ header {
     justify-content: center;
 }
 .container-section-a-1-2-1{
-    padding-left:30px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -108,13 +116,15 @@ header {
     color:white;
     text-align:center;
     width: 65%;
+    font-family: sans-serif;
     
 }
 .container-section-a-1-2-1-message span {
-  font-size:15px;
+  font-size:16.6px;
+  font-style: normal;
 }
 .vl {
-    border-left: 6px solid rgb(19, 196, 223);
+    border-left: 2px solid rgb(19, 196, 223);
     height: 98px;
   }
   .logo-container {
@@ -122,8 +132,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    margin-top: 12px;
+    width:38px;
   }
+  
 .container-fluid{
     opacity: 0; /* Set initial opacity to 0 */
     animation: fadeIn 5s ease-in-out forwards; /* Add fade-in animation */
@@ -137,10 +149,9 @@ header {
       opacity: 1; /* Set ending opacity */
     }
   }
-  .logo-container img {
-    height: 40px;
-    padding-bottom: 5px;
-    margin: 4px 10px;
+  .image img {
+    max-height: 44px;
+    max-width:100%;
   }
 
 nav ul {
@@ -310,7 +321,8 @@ nav ul li a {
 }
 
 .links a{
-color: #2abdb1;
+color: #18ffec;
+font-weight: bold;
 }
 
 @media (max-width:960px){
@@ -321,15 +333,24 @@ color: #2abdb1;
     width:75%;
   }
   .container-section-a-1-2-1-message span{
-    font-size: 12px;
+    font-size: 13.5px;
   }
   nav ul li a{
     font-size:16px;
+  }
+
+}
+@media (max-width:707px){
+  .container-section-a-1-2-1-motto h1{
+    text-align: center;
   }
 }
 @media (max-width:720px){
   nav ul li a{
     font-size:16px;
+  }
+  .nav-desktop{
+    display: none;
   }
 }
 @media (max-width:620px){
