@@ -10,17 +10,22 @@
   <body>
 
     <div class="grid-container">
+
+      <!-- IMAGE CONTAINER -->
       <div class="left-container">
         <div class="img-container">
             <img src="../../Assets/office1.png">
         </div>
       </div>
+
+      <!-- FORM CONTAINER -->
       <div class="right-container">
         <a1 style="font-weight:bolder;padding: 10px;">Hire Us</a1>
         <form id="myForm">
 
           <div class='right-grid'>
 
+            <!-- GRID: EMAIL AND NAME -->
             <div class="name-email-grid">
 
               <div class="form-group">
@@ -102,6 +107,8 @@
 
         form.addEventListener('submit', (e) => {
           e.preventDefault();
+
+          // FIND SELECTED OPTION
           for (let i = 0; i < radioButtons.length; i++) {
           if (radioButtons[i].checked) {
               selectedOption = radioButtons[i].id;
@@ -109,7 +116,7 @@
             }
           }
 
-          
+          // EMAIL CHECKER
           if (!email.value) {
             email.classList.add('is-invalid');
             email.addEventListener('input', () => {
@@ -122,6 +129,7 @@
             email.classList.remove('is-invalid');
           }
       
+          // MESSAGE CHECKER
           if (!message.value) {
             message.classList.add('is-invalid');
             errorMsg.textContent = 'Please enter a message.';
@@ -138,12 +146,6 @@
       
           // submit form if validation passes
           form.submit();
-
-
-          console.log("Name: "+ name.value);
-          console.log("Email: "+email.value);
-          console.log("Message: "+message.value);
-          console.log("Service: "+selectedOption);
         });
       </script> 
 </html>

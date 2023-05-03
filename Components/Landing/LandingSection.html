@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 <script>
+
+    // SERVICES DROPDOWN  
     function toggleDropdown() {
       var dropDownMenu = document.getElementById("dropdown-menu-container");
       var menu = document.getElementById("navdynamic-container");
@@ -23,6 +25,8 @@
         // Set the height to be the height of the menu when it's open
         menu.style.height = menuHeight + "px";
     }
+
+    // NAVBAR DYNAMIC DROPDOWN OPEN FUNCTIONALITY
     function toggleDropdownNavbar() {
       var menu = document.getElementById("navdynamic-container");
       var dropdownButton = document.getElementById("dropdownButtonDynamic");
@@ -40,6 +44,9 @@
       
 
     }
+    
+    // NAVBAR DYNAMIC DROPDOWN CLOSE FUNCTIONALITY
+    // SELECT CROSS, DEFAULT DROPDOWN BUTTON, MENU COMPONENT, SERVICES DROPDOWN(dropdown-menu-container)
     function toggleDropdownCancel() {
       var dropDownCancel = document.getElementById("dropdown-cancel");
       var dropDownButton = document.getElementById("dropdownButtonDynamic");
@@ -86,6 +93,7 @@
                         <li><a href="#" class="nav-buttons">Home</a></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-btn">Services <i class="arrow-down"></i></a>
+                          <!-- SERVICES DROPDOWN -->
                           <div class="dropdown-menu-container">
                             <div class="dropdown-menu" style="display:flex">
                                 <a class="dropdown-items" href="#">Web Development</a>
@@ -107,6 +115,7 @@
                       
                 </nav>
             </header>
+
             <div class="container-section-a-1">
 
 
@@ -151,6 +160,8 @@
                 </div>
 
             <!-- SECTION 2 containing logo,message and motto -->
+
+            <!-- LINKS -->
                 <div class="container-section-a-1-1">
                     <div class="vl"></div>
                     <div class="logo-container">
@@ -169,11 +180,17 @@
                     <div class="vl"></div>
         
                 </div>
+
+                <!-- TEXT CONTAINER -->
                 <div class="container-section-a-1-2">
                     <div class="container-section-a-1-2-1">
+
+                        <!-- MOTTO CONTAINER -->
                         <div class="container-section-a-1-2-1-motto">
                             <h1>Imagine. Connect. Achieve</h1>
                         </div>
+
+                        <!-- MESSAGE CONTAINER -->
                         <div class="container-section-a-1-2-1-message">
                             <span >We turn your website into the most valuable and profitable marketing asset of yours.
                                 Our success is your credibility and sense of reliability and we know how to turn your dreams into reality</span>
@@ -181,6 +198,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- LINKS CONTAINER -->
             <div class="container-section-a-2">
                 <div class="link-container">
                     <div class="links">
