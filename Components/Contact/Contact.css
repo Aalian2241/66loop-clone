@@ -21,19 +21,86 @@
   }
 .Contact{
     flex:2;
+    padding:30px;
 }
 .Locations{
     flex:2;
+    padding:30px;
+
+}
+.image-container{
+  display:flex;
 }
 
-.img-container{
-    flex:4
+.image-container img{
+    flex:4;
+    width:101%;
+}
+.descs{
+  width: 29vw;
+}
+.title h1{
+    color:white;
+    font-size:32px;
 }
 
-.Contact h1{
+.descs a1{
     color:white;
 }
+.text-container{
+  display: flex;
+  flex-direction: row;
+}
 
-.other a{
-    color:white;
+@media (max-width:924px){
+  .other a1{
+    font-size:14px;
+  }
+  .text-container{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:768px){
+  .text-container{
+    flex-direction: column;
+  }
+  .title h1{
+    font-size: 25px;
+  }
+  .descs{
+    width:29vw;
+  }
+  .descs a1{
+    font-size: 14px;
+  }
+}
+@media (max-width:600px){
+  .title h1{
+    font-size: 20px;
+  }
+
+  .descs a1{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:540px){
+  .text-container{
+    flex-direction: column;
+  }
+  .container-fluid{
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width:339px){
+  .container-fluid{
+    padding:85px;
+  }
+  .descs{
+    width: 34vw;
+  }
 }

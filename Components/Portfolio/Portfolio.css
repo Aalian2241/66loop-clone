@@ -1,10 +1,11 @@
-.container {
+.container-p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     opacity: 0; /* Set initial opacity to 0 */
     animation: fadeIn 1s ease-in-out forwards; /* Add fade-in animation */
-
+    padding-top: 20px;
+    padding:40px;
 }
 
   @keyframes fadeIn {
@@ -16,7 +17,7 @@
     }
   }
   .grid-1 {
-    justify-content: start;
+    display: flex;
     width:100%
   }
 
@@ -25,8 +26,9 @@
     
     display:flex;
     flex-direction: column;
-    padding-top: 80px;
     text-align: start;
+    justify-content: center;
+    align-items: center;
 }
 .content a1{
     color: darkgrey;
@@ -36,7 +38,7 @@
     font-weight: bold;
 }
 .content a{
-    font-size:20px;
+    font-size:16.7px;
     width: 89%;
 }
 
@@ -53,7 +55,51 @@
   } 
 
   .Section-Title h1{
-    width:22%;
+    width:40%;
     font-size:52px;
     font-weight:bolder;
 }
+
+@media screen and (max-width: 840px) {
+  .Section-Title h1{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container-p{
+    display:flex;
+    flex-direction: column-reverse;    
+  }
+  .Section-Title h1{
+    width: 70%;
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Section-Title h1{
+    width:67%;
+    font-size:42px;
+  }
+}
+
+
+@media screen and (max-width: 410px) {
+  .Section-Title h1{
+    width:67%;
+    font-size:34px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Section-Title h1{
+    width:90%;
+    font-size:34px;
+  }
+  .content a,a1,p{
+    font-size:13.7px;
+  }
+  
+  }
+
+
+

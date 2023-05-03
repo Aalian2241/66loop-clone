@@ -26,6 +26,8 @@
   .image-container {
     max-width: 90%;
     height: auto;
+    display: flex;
+    justify-content: center;
     margin-bottom: 10px; /* add some space below image */
   }
   
@@ -55,4 +57,26 @@
     font-weight: bold;
   }
  
- 
+ .h-100{
+justify-content: center;
+align-items: center;
+ }
+
+@media (max-width:767px){
+  .image-container img{
+    max-width: 71%;
+  }
+}
+@media (max-width:550px){
+  .image-container img{
+    max-width: 50%;
+  }
+}
+@media (max-width:360px){
+  .image-container img{
+    max-width: 35%;
+  }
+  .info-container{
+    font-size:14px;
+  }
+}

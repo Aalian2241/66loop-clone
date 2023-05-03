@@ -84,23 +84,41 @@
     background-color: rgb(192, 178, 178);
   }
 
+  @media (max-width:932px){
+    .Section-Title h1{
+      width:45%;
+    }
+    .grid1-content{
+      padding:22px;
+    }
+  }
   @media (max-width: 768px){
     .grid-container {
       grid-template-columns: repeat(1, 1fr); /* Three columns with equal width */
     }
-    .Section-Title{
+    .Section-Title h1{
       width:60%;
     }
-
+    .grid1-content a{
+      font-size: 16px;
+    }
   }
   
+  @media (max-width:673px){
+    .grid1-content a{
+      font-size: 15px;
+    }
+  }
   @media (max-width: 450px){
     .grid-container {
       grid-template-columns: repeat(1, 1fr); /* Three columns with equal width */
     }
-    .Section-Title{
-      font-size: 45px;
-      width: 85%;
+    .Section-Title h1{
+      font-size: 40px;
     }
+    .grid1-content a{
+      font-size: 14px;
+    }
+
   }
   

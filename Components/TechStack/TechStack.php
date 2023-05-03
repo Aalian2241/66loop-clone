@@ -45,12 +45,13 @@
 
 ?>
 
-<div >
-  <div class="container">
+<div style="background-color: #f2eaea;padding:20px">
+  <div class="container-p" style="background-color: white;">
+  <div class="divider"></div>
+
     <div class="title">
-      <a style="font-size:40px">Our Technologies</a>
+      <a1>Our Technologies</a1>
     </div>
-      <div class="divider"></div>
         <div class="grid-container">
           <?php foreach ($gridItems as $item): ?>
             <div class="grid-item">

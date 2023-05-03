@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="News.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-<link rel="stylesheet" href="News.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
 
 <?php
   $gridItems = [
@@ -31,8 +35,8 @@
 ?>
 
 
-    
-  <div class="custom-container">
+<body>
+<div class="custom-container">
   <div class="Section-Title">
         <h1>News and Events</h1>
     </div>
@@ -49,10 +53,12 @@
                 <div class="date"><?php echo $item['date']; ?></div>
                 <div class="description"><?php echo $item['description']; ?></div>
 
-                <a href="#" style="color:aqua;border-bottom: 2px aqua;font-size:2vw">Read Article</a>   
+                <a href="#" style="color:aqua;border-bottom: 2px aqua;">Read Article</a>   
            
             </div>
           <?php endforeach; ?>
         </div>
 
   </div>
+
+</body>  

@@ -82,7 +82,7 @@
   font-weight: bolder;
 }
 .right-container a1{
-  font-size: 32px;
+  font-size: 42px;
 }
 @media (max-width: 1240px) {
   .img-container{
@@ -107,26 +107,28 @@
 }
 
   #Message{
-    width:96%;
+    width:100%;
 
   }
 
 }
 
-@media (max-width: 590px) {
+@media (max-width: 768px) {
   .img-container img {
-    width: 55%;
+    width: 70%;
   }
   
   .right-container a1{
-    font-size: 24px;
-    padding:10px;
+    font-size: 37px;
   }
 
   .options a1{
     font-size:24px;
     padding:10px;
 
+  }
+  .option-label{
+    font-size: 17px;
   }
   .grid-container{
     grid-template-columns:repeat(1,1fr);
@@ -135,13 +137,17 @@
   .name-email-grid{
     grid-template-columns: repeat(1,1fr);
   }
-  #Name{
-    height:50px;
-    width:100%;
-}
-#Email{
-    height:50px;
-    width:100%;
+  #Name,#Email{
+    height:40px;
+
+  }
+  #Message{
+    height: 84px;
+  }
 }
 
+@media (max-width:600px) {
+  .right-container a1{
+    font-size: 33px;
+  }
 }

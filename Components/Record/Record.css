@@ -19,13 +19,14 @@
   .grid-item {
     background-color: none;
     padding: 7px;
-    
-
+    border-bottom: 2px solid #ccc;
+    margin-right: 12px;
+    margin-left:12px;
 
   }
   
   .title {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: bold;
     margin-bottom: 10px;
   }
@@ -33,7 +34,6 @@
   .description {
     font-size: 24px;
     line-height: 1.5    ;
-    border-bottom: 2px solid #ccc;
     margin-right: 16px;
   }
   
@@ -50,6 +50,31 @@
   }
   
   .grid2 img {
-    max-width: 120%;
+    width: 100%;
     height: auto;
+    
   } 
+
+  @media (max-width:1024px){
+    .description{
+      font-size: 20px;
+    }
+    .title{
+      font-size: 36px;
+    }
+
+  }
+  @media (max-width:714px){
+    .grid-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .grid2{
+      order:-1;
+    }
+    .description{
+      font-size: 18px;
+    }
+    .title{
+      font-size: 30px;
+    }
+  }
