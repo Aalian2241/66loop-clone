@@ -1,0 +1,30 @@
+
+.dropdown-button-dynamic {
+    display:none;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .bar {
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px auto;
+    background-color: white;
+  }
+  
+  /* Hover/focus styles */
+  .dropdown-button-dynamic:hover .bar {
+    background-color:aqua;
+  }
+  
+  .dropdown-button-dynamic:focus {
+    outline: none;
+  }
+  
+  @media (max-width:766px){
+    .dropdown-button-dynamic{
+        display:block;
+    }
+
+    }

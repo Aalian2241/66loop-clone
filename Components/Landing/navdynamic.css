@@ -1,9 +1,91 @@
 .navdynamic-container{
     position: absolute;
     z-index:1;
-    display: block;
+    display: block; /*block*/
+    width:100%;
+    background-color: white;
+    left:0px;
+    top:82px;
+    /* opacity: 0; */
+    overflow: hidden;
+    height:0;
+    transition: height 0.3s ease-in-out;
 }
-.navdynamic{
+
+/* .navdynamic-container.show {
+    height: auto;
+  } */
+  
+/* .navdynamic{
     display: flex;
     flex-direction:column;
+    align-items:center;\
+} */
+
+.span{
+    color:inherit;
+    transition: color  0.3s ease-in-out;
+
 }
+.arrow-down-dynamic {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid rgb(0, 0, 0);
+    transition: border-top-color 0.3s ease-in-out;
+  
+  }
+  .menu-item{
+    padding:10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    transition: background-color  0.2s ease-in-out;
+    cursor:pointer;
+
+  }
+  .menu-item:hover{
+    background-color: rgb(16, 10, 55);
+  }
+  .menu-item:hover span {
+    color: rgb(68, 247, 208);
+  }
+  .dropdown-dynamic:hover .arrow-down-dynamic{
+    border-top: 8px solid rgb(30, 199, 162);
+
+  } 
+  .dropdown-btn-dynamic {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    transition: color  0.3s ease-in-out;
+  }
+  
+  .dropdown:hover .dropdown-btn {
+    color: #2abdb1;
+    
+  }
+
+.dropdown-btn-dynamic:focus-within .dropdown-menu-container-dynamic {
+  display: flex;
+}
+  .dropdown-menu-container-dynamic {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+.dropdown-menu-dynamic{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    transition: display 0.3s ease-in-out;
+}
+#dropdown-cancel:hover {
+    cursor: pointer;
+  }
+  

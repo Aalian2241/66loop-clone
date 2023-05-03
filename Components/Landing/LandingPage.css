@@ -9,8 +9,9 @@ header {
 }
 
 .logo {
-	flex: 1;
-    }
+  width:256px;
+  padding:17px;
+}
 .container{
     display: flex;
     background-color: #333;
@@ -257,12 +258,14 @@ nav ul li a {
 .dropdown-items{
   font-size:16px;
   color:black;
-  padding-left:14px;
-  padding-bottom: 12px;
+  padding:10px;
+  text-decoration: none;
   transition:color 0.3s ease-in-out;
+  text-align: center;
 }
 .dropdown-items:hover{
-  color:#2abdb1;
+  color:#32f8e7;
+  background-color:rgb(16, 10, 55)
 }
 .dropdown:hover .dropdown-menu-container,
 .dropdown:focus-within .dropdown-menu-container {
@@ -345,7 +348,7 @@ font-weight: bold;
     text-align: center;
   }
 }
-@media (max-width:720px){
+@media (max-width:766px){
   nav ul li a{
     font-size:16px;
   }
